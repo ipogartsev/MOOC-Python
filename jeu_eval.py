@@ -199,7 +199,7 @@ def ramasser_objet(position, mouvement):
     onkeypress_up()
 
 def poser_question(matrice, case, mouvement):
-    """Affiche une question pour ouvrir une porte fermée, deplace le personnage si la réponse est correcte"""
+    """Affiche une question à repondre pour ouvrir une porte fermée, deplace le personnage si la réponse est correcte"""
     t_zone_affichage((-240, 240), 'Cette porte est fermée!', False)
     onkeypress_none()
     time.sleep(1)
